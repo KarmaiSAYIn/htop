@@ -53,6 +53,7 @@ static HandlerResult ColumnsPanel_eventHandler(Panel* super, int ch) {
          break;
       }
       case KEY_UP:
+      case 'k':
       {
          if (!this->moving) {
             break;
@@ -69,6 +70,7 @@ static HandlerResult ColumnsPanel_eventHandler(Panel* super, int ch) {
          break;
       }
       case KEY_DOWN:
+      case 'j':
       {
          if (!this->moving) {
             break;

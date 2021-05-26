@@ -72,8 +72,10 @@ static HandlerResult CategoriesPanel_eventHandler(Panel* super, int ch) {
          result = HANDLED;
          break;
       case KEY_UP:
+      case 'k':
       case KEY_CTRL('P'):
       case KEY_DOWN:
+      case 'j':
       case KEY_CTRL('N'):
       case KEY_NPAGE:
       case KEY_PPAGE:

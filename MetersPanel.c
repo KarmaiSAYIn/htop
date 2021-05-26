@@ -117,6 +117,7 @@ static HandlerResult MetersPanel_eventHandler(Panel* super, int ch) {
          break;
       }
       case KEY_UP:
+      case 'k':
       {
          if (!this->moving) {
             break;
@@ -133,6 +134,7 @@ static HandlerResult MetersPanel_eventHandler(Panel* super, int ch) {
          break;
       }
       case KEY_DOWN:
+      case 'j':
       {
          if (!this->moving) {
             break;
@@ -149,6 +151,7 @@ static HandlerResult MetersPanel_eventHandler(Panel* super, int ch) {
          break;
       }
       case KEY_RIGHT:
+      case 'l':
       {
          sideMove = moveToNeighbor(this, this->rightNeighbor, selected);
          if (this->moving && !sideMove) {
@@ -160,6 +163,7 @@ static HandlerResult MetersPanel_eventHandler(Panel* super, int ch) {
          break;
       }
       case KEY_LEFT:
+      case 'h':
       {
          sideMove = moveToNeighbor(this, this->leftNeighbor, selected);
          if (this->moving && !sideMove) {
