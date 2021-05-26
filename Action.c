@@ -512,7 +512,7 @@ static Htop_Reaction actionHelp(State* st) {
    int line = 0;
 
    mvaddstr(line++, 0, "htop " VERSION " - " COPYRIGHT);
-   mvaddstr(line++, 0, "Released under the GNU GPLv2. This version of htop was compiled from the following github fork: as;d lfjas;l kfjask;l fjas;kld jfdasl;kf jasdl;kjf as;lkjfkasd j");
+   mvaddstr(line++, 0, "Released under the GNU GPLv2. This version of htop was compiled from the following github fork: https://github.com/KarmaiSAYIn/htop");
 
    attrset(CRT_colors[DEFAULT_COLOR]);
    line++;
