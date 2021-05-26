@@ -1,4 +1,4 @@
-This was a fork of htop, don't ask why it's not properly forked; here's the original repository
+This was a fork of htop, don't ask why it's not properly forked; here's the original repository https://github.com/htop-dev/htop
 
 All I've done is made htop use vim controls.
 
